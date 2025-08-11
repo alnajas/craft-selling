@@ -1,0 +1,102 @@
+
+        *{
+    padding: 0;
+    margin: 0;
+     
+
+}
+/* body{
+   background-color: #deb887;
+} */
+.carousel-inner img {
+    max-height: 500px; /* adjust as needed */
+    object-fit: cover; /* keeps image cropped nicely */
+  }
+.carousel-caption h2
+{
+  color: rgb(158, 75, 16);
+  background-color: burlywood;
+  font-weight: 700;
+  font-family: cursive;
+  font-display: 5;
+  text-shadow: 3px 2px 4px white;
+}
+.carousel-caption {
+   background-color: burlywood;
+   width: 500px;
+   position: absolute;
+   left: 35%;
+   bottom: 35%;
+   border-radius: 20px;
+   
+}
+.home-page{
+    height: 500px;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url('https://cdn.pixabay.com/photo/2024/09/20/14/45/ai-generated-9061670_1280.png');
+    background-size: cover;
+    background-position: center;
+}
+.row{
+    background-color:transparent;
+    width: 500px;
+    height: 200px;
+    border: 2px solid gray;
+    border-radius: 5px;
+    padding: 100px;
+    position: relative;
+    left: 35%;
+    top: 40%;
+  
+    
+
+  }
+.flex img{
+  transition: transform 1s ease ;
+}
+.flex img:hover{
+  transform: scale(1.1);
+}
+.card, .card-body, .card-title, .card-text {
+    writing-mode: horizontal-tb !important;
+    transform: none !important;
+    padding: 5px;
+}
+.rows {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 400px;
+    width: auto;
+}
+
+
+#contact h2{
+text-align: center;
+}
+
+form {
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+input, textarea {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+#contact button {
+ 
+ background-color:black;
+ color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+}
